@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
         cout << "Error loading XML file!" << endl;
         return 1;
     }
-    //test comment
+    //test
 
     XMLElement* catalog = doc.FirstChildElement("catalog");
     if (catalog == nullptr) {
